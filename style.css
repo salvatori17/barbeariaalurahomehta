@@ -23,4 +23,31 @@ nav a {text-transform: uppercase;
      
     .produtos li {display: inline-block;
      text-align: center;
-     width: 30%;}
+     width: 25%;
+     vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 2px solid black;
+   border-radius: 10px;
+
+}
+
+.produtos li:hover {border-color: chocolate;}
+.produtos li:active {border-color: darkcyan;}
+.produtos li:hover h2 {
+   font-size: 40px;
+}
+nav a:hover{
+   color: blueviolet;
+   text-decoration: underline;
+}
+
+     .descriçao{font: size 18px;;}
+
+     .preços{font-size: 22px;
+              font-weight: bold;
+            margin-top: 10px;}
+   footer{text-align: center;
+   background-color: black;}
+   .rodape{color: white;}
